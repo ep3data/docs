@@ -156,7 +156,7 @@ At this point your command prompt shows a ``(geonode)`` prefix, this indicates t
   sudo mkdir -p /opt/geonode/; sudo usermod -a -G www-data $USER; sudo chown -Rf $USER:www-data /opt/geonode/; sudo chmod -Rf 775 /opt/geonode/
 
   # Clone the GeoNode source code on /opt/geonode
-  cd /opt; git clone https://github.com/GeoNode/geonode.git -b 3.x geonode
+  cd /opt; git clone https://github.com/GeoNode/geonode.git -b 3.1.x geonode
 
 .. code-block:: shell
 
@@ -1297,7 +1297,7 @@ Python Setup
 .. code-block:: shell
 
     cd your/working/directory
-    git clone https://github.com/GeoNode/geonode.git -b 3.x
+    git clone https://github.com/GeoNode/geonode.git -b 3.1.x
     
 Installation of Gdal
 ^^^^^^^^^^^^^^^^^^^^
@@ -1471,7 +1471,7 @@ Clone the Project
 
   # Clone the GeoNode source code on /opt/geonode
   cd /opt
-  git clone https://github.com/GeoNode/geonode.git -b 3.x geonode
+  git clone https://github.com/GeoNode/geonode.git -b 3.1.x geonode
 
 Start the Docker instances on ``localhost``
 
