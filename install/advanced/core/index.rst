@@ -650,7 +650,7 @@ Let's externalize the ``GEOSERVER_DATA_DIR`` and ``logs``
   sudo chmod -Rf 775 /opt/data/logs
 
   # Download and extract the default GEOSERVER_DATA_DIR
-  sudo wget --no-check-certificate https://build.geo-solutions.it/geonode/geoserver/latest/data-2.17.2.zip
+  sudo wget --no-check-certificate "https://www.dropbox.com/s/43vw52s99w6w0rb/data-2.17.2.zip?dl=1" -O data-2.17.2.zip
   sudo unzip data-2.17.2.zip -d /opt/data/
 
   sudo mv /opt/data/data/ /opt/data/geoserver_data
@@ -666,7 +666,7 @@ Let's externalize the ``GEOSERVER_DATA_DIR`` and ``logs``
   sudo chmod -Rf 775 /opt/data/gwc_cache_dir
 
   # Download and install GeoServer
-  sudo wget --no-check-certificate https://build.geo-solutions.it/geonode/geoserver/latest/geoserver-2.17.2.war
+  sudo wget --no-check-certificate "https://www.dropbox.com/s/bdl6p64cuh4xu33/geoserver-2.17.2.war?dl=1" -O geoserver-2.17.2.war
   sudo mv geoserver-2.17.2.war /opt/tomcat/latest/webapps/geoserver.war
 
 Let's now configure the ``JAVA_OPTS``, i.e. the parameters to run the Servlet Container, like heap memory, garbage collector and so on.
@@ -1716,7 +1716,7 @@ Update the GeoServer instance inside the GeoServer Container
 .. code-block:: shell
 
   cd /usr/local/tomcat/
-  wget --no-check-certificate https://build.geo-solutions.it/geonode/geoserver/latest/geoserver-.2.17.2.war
+  wget --no-check-certificate "https://www.dropbox.com/s/bdl6p64cuh4xu33/geoserver-2.17.2.war?dl=1" -O geoserver-2.17.2.war
   mkdir tmp/geoserver
   cd tmp/geoserver/
   unzip /usr/local/tomcat/geoserver-2.17.2.war
