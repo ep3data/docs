@@ -387,7 +387,7 @@ Now, go to the official Apache Tomcat `website <https://tomcat.apache.org/>`_ an
 
 .. code-block:: shell
 
-  VERSION=9.0.39; wget https://www-eu.apache.org/dist/tomcat/tomcat-9/v${VERSION}/bin/apache-tomcat-${VERSION}.tar.gz
+  VERSION=9.0.44; wget https://www-eu.apache.org/dist/tomcat/tomcat-9/v${VERSION}/bin/apache-tomcat-${VERSION}.tar.gz
 
 
 Once the download is complete, extract the tar file to the /opt/tomcat directory:
