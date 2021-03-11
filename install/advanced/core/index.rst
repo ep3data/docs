@@ -242,7 +242,7 @@ In this section we are going to install the ``PostgreSQL`` packages along with t
   sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
   sudo wget --no-check-certificate --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 
-  sudo apt update -y; sudo apt install -y postgresql-11 postgresql-11-postgis-2.5 postgresql-11-postgis-2.5-scripts postgresql-contrib-11 postgresql-client-11
+  sudo apt update -y; sudo apt install -y postgresql-13 postgresql-13-postgis-3 postgresql-13-postgis-3-scripts postgresql-contrib-13 postgresql-client-13
 
 We now must create two databases, ``geonode`` and ``geonode_data``, belonging to the role ``geonode``.
 
