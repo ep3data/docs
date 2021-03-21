@@ -1,10 +1,10 @@
 .. _mainindex:
 
 =======================
-GeoNode's Documentation
+EP3Data's GeoNode Documentation
 =======================
 
-Welcome to GeoNode's Documentation.
+Welcome to EP3Data GeoNode Documentation.
 
 GeoNode is an Open Source, Content Management System (CMS) for geospatial data. It is a web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI).
 
